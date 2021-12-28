@@ -1,0 +1,7 @@
+//ค้นหาสินค้าที่มีคำว่า "water" และ แสดงเฉพาะ ฟิวส์ name , vol,price
+use("shop-Pantira");
+
+db.products.find(
+    {"name" : { $regex : /water/ }},
+    { "name" : 1,"vol" : 1, "price" : 1}
+);

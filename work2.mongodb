@@ -1,0 +1,29 @@
+use("shop-Pantira");
+
+
+//operate $gt, $gte, $lt, $lte, $ne
+
+//regular expression
+// db.products.find(
+//     //"code" : "1005",
+//    {"name" : { $regex: /I/ }},
+//     //"color" : "Black", 
+//     //ถ้าต้องการใช้เครื่องหมาย >< ให้ใช้ { $gt : 100}
+
+//     //projection (select desired fields)
+//     {
+//        // "name" :1, "price" : 1, "code" :1
+//         "description" : 0
+//     }
+// );
+//gt : oreater than
+//gte : grater than or equal
+// select * from products where price= "299";
+//ถ้ามี , ให้เพิ่ม  and
+
+//gt = มากกว่า (greater than)
+//gte = มากกว่าหรือเท่ากับ (greater than or equal)
+//lt = น้อยกว่า (less than)
+//lte = น้อยกว่าหรือเท่ากับ (less than or equal)
+
+
